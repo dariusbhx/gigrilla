@@ -101,11 +101,14 @@ button{
 }
 
 @media only screen and (min-width: 992px) {
+
  .navbar{
     position: fixed;
     height: 100px;
  }
  #cover{
      height: 80px;
+     background: none;
+     background-color:rgb(38, 120, 112); ;
  }
 }
