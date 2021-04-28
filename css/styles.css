@@ -1,0 +1,111 @@
+/*Global Styles*/
+
+h2{
+    color: rgb(38, 120, 112);
+}
+
+.btn{
+    background-color: rgb(38, 120, 112) !important;
+}
+
+
+/*Navbar  */
+#cover {
+  width: 100%;
+  height: 200px;
+  background: url(../assets/starry-sky-2.jpg) no-repeat 50% 50% / cover;
+}
+
+
+button{
+    background-color: white!important;
+}
+
+#navbar-div{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
+
+.img-size{
+    height: auto;
+    width: 100%;
+}
+/*Icon Section*/
+
+.icon-resize{
+    height: 200px;
+    width: 200px;
+}
+
+.icon-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.icon-div i {
+    margin-bottom: 20px;
+}
+
+/*Community Section Styling*/
+.coomunity-banner{
+    width: 100%;
+}
+.community-content-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    height: 300px;
+    background: url(../assets/playing-guitar-2.jpg) no-repeat 50% 50% / cover;
+}
+.community-content-holder p{
+    color: white;
+}
+.input-group{
+   width: 33%;
+}
+
+
+
+.community-items{
+    margin: 10px 0;
+}
+
+#community-paragraph{
+    padding: 0 20px;
+}
+
+
+
+/*Download Section Styling*/
+
+.download-content-holder{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 50px 0 ;
+}
+
+.download-content-holder p{
+    width:auto;
+    padding: 20px
+}
+
+@media only screen and (min-width: 992px) {
+ .navbar{
+    position: fixed;
+    height: 100px;
+ }
+ #cover{
+     height: 80px;
+ }
+}
